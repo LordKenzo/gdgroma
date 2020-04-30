@@ -1,4 +1,5 @@
 import { css } from '@emotion/core';
+// prettier-ignore
 
 export const global = theme => css`
   * {
@@ -15,12 +16,25 @@ export const global = theme => css`
   body {
     margin: 0;
     color: #222;
+    font-family:
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      Roboto,
+      Helvetica,
+      Arial,
+      sans-serif;
     font-size: 18px;
     line-height: 1.4;
 
     /* Gatsby aggiunge un div */
     > div {
       margin-top: 0;
+    }
+
+    p {
+      color: ${theme.colors.textPrimary};
+      background-color: transparent;
     }
 
     h1,

@@ -1,13 +1,13 @@
 export const theme = {
   colors: {
-    textPrimary: '#555',
-    backPrimary: '#eee',
+    textPrimary: '#eee',
+    backPrimary: '#555',
   },
 };
 
 export const oldTheme = {
   colors: {
-    textPrimary: '#eee',
-    backPrimary: '#555',
+    textPrimary: '#7FDBFF',
+    backPrimary: '#ccafaf',
   },
 };
