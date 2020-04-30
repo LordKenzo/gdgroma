@@ -1,14 +1,14 @@
 {
   
   "plugins": ["stylelint-prettier"],
+  "semi": true,
+  "endOfLine": "lf",
+  "arrowParens": "avoid",
   "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
   "rules": {
-    "prettier/prettier": true,
-    "endOfLine": "lf",
-    "arrowParens": "avoid",
-    "semi": true,
-    "tabWidth": 2,
-    "trailingComma": "all"
+    "prettier/prettier": true
   },
   "extends": ["stylelint-config-standard", "stylelint-config-prettier"]
 }
