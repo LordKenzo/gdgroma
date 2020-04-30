@@ -1,5 +1,13 @@
 export const theme = {
   colors: {
-    primary: 'hotpink',
+    textPrimary: '#555',
+    backPrimary: '#eee',
+  },
+};
+
+export const oldTheme = {
+  colors: {
+    textPrimary: '#eee',
+    backPrimary: '#555',
   },
 };
