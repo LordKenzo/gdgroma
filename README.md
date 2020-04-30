@@ -19,3 +19,20 @@ npm i react react-dom gatsby
 npm i -D prettier cross-env
 ```
 
+## Theming
+
+Added theme:
+
+```js
+const Layout = ({ children }) => (
+  <>
+    <ThemeProvider theme={theme}>
+      <Global styles={global(theme)} />
+      <div css={(theme) => ({ color: theme.colors.primary })}>
+        some other text
+      </div>
+      {children}
+    </ThemeProvider>
+  </>
+);
+```

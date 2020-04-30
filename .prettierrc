@@ -1,12 +1,12 @@
 {
   
   "plugins": ["stylelint-prettier"],
+  "singleQuote": true,
   "rules": {
     "prettier/prettier": true,
     "endOfLine": "lf",
     "arrowParens": "avoid",
     "semi": true,
-    "singleQuote": true,
     "tabWidth": 2,
     "trailingComma": "all"
   },
