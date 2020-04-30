@@ -44,7 +44,6 @@ export const global = theme => css`
     h5,
     h6 {
       color: ${theme.colors.textPrimary};
-      background-color: ${theme.colors.backPrimary};
       line-height: 1.1;
 
       /* Tutto quello che viene subito dopo l'heading */
